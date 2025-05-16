@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coders ERA Community</title>
+    <link rel="icon" type="image/jpg" href="logo.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="core-carousel.js" defer></script>
+    <style>
+        #eventSlider {
+            transform: translateX(0);
+        }
+        .event-dot.active {
+            background-color: #60A5FA;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-gray-800">
+    <nav class="bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <img src="logo.jpg" alt="Coders ERA Logo" class="h-10 w-10 rounded-full hover-scale">
+                  
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="text-gray-300 hover:text-blue-400 hover-scale">Home</a>
+                    <a href="#about" class="text-gray-300 hover:text-blue-400 hover-scale">About</a>
+                    <a href="#community" class="text-gray-300 hover:text-blue-400 hover-scale">Community</a>
+                    <a href="#contact" class="text-gray-300 hover:text-blue-400 hover-scale">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-16">
+        <section class="text-center py-20 bg-gradient-to-r from-blue-900 to-purple-900 parallax">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" data-aos="fade-up">
+                <img src="rlogo.png" alt="Coders ERA Logo" class="w-32 h-32 mx-auto mb-6 hover-scale">
+                <h1 class="text-4xl font-bold text-white mb-4 floating">Welcome to <span class="roller-coaster">Coders ERA</span></h1>
+                <div id="typewriter" class="text-2xl text-white gradient-text"></div>
+                        </div>
+                    </div>
+                </div>
+              
+            <style>
+                @keyframes scroll {
+                    0% { transform: translateX(0); }
+                    100% { transform: translateX(-100%); }
+                }
+                .core-dot {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background-color: #4B5563;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+                .core-dot.active {
+                    background-color: #60A5FA;
+                }
+            </style>
+        </section>
+
+        <section class="py-16 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-gray-800 to-blue-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-xl font-semibold mb-4 gradient-text">Learn Together</h3>
+                    <p class="text-gray-300">Join our community of passionate developers and learn from each other.</p>
+                </div>
+                <div class="bg-gradient-to-br from-gray-800 to-purple-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-semibold mb-4 gradient-text">Share Knowledge</h3>
+                    <p class="text-gray-300">Share your experiences and help others grow in their coding journey.</p>
+                </div>
+                <div class="bg-gradient-to-br from-gray-800 to-indigo-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-xl font-semibold mb-4 gradient-text">Build Projects</h3>
+                    <p class="text-gray-300">Collaborate on exciting projects and build your portfolio.</p>
+                </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <style>
+                @keyframes scroll {
+                    0% { transform: translateX(0); }
+                    100% { transform: translateX(-100%); }
+                }
+                .core-dot {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background-color: #4B5563;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+                .core-dot.active {
+                    background-color: #60A5FA;
+                }
+            </style>
+        </section>
+        <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-900 to-gray-800">
+            <h2 class="text-3xl font-bold text-center mb-12 gradient-text">Our Leaders</h2>
+            <!-- President Card -->
+            <div class="max-w-7xl mx-auto mb-8">
+                <div class="max-w-md mx-auto bg-gradient-to-br from-gray-800 to-blue-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up" data-aos-delay="100">
+                    <img src="me.jpg" alt="President" class="w-32 h-32 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-xl font-semibold mb-2 text-center text-white">ADITYA RAJ SRIVASTAVA</h3>
+                    <p class="text-gray-300 text-center mb-4">PRESIDENT & FOUNDER</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Vice Presidents Row -->
+            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <div class="bg-gradient-to-br from-gray-800 to-purple-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up" data-aos-delay="200">
+                    <img src="aman.jpg" alt="Vice President" class="w-32 h-32 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-xl font-semibold mb-2 text-center text-white">AMAN SINGH</h3>
+                    <p class="text-gray-300 text-center mb-4">VICE PRESIDENT</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-800 to-indigo-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up" data-aos-delay="300">
+                    <img src="v.jpg" alt="Vice President" class="w-32 h-32 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-xl font-semibold mb-2 text-center text-white">KHUSHI GUPTA</h3>
+                    <p class="text-gray-300 text-center mb-4">VICE PRESIDENT</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Additional Leaders Row -->
+            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gradient-to-br from-gray-800 to-green-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up" data-aos-delay="400">
+                    <img src="ayushi.jpg" alt="Leader 4" class="w-32 h-32 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-xl font-semibold mb-2 text-center text-white">AYUSHI RAI</h3>
+                    <p class="text-gray-300 text-center mb-4">SOCIAL MEDIA HEAD</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-800 to-pink-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up" data-aos-delay="500">
+                    <img src="aranjay.jpg" alt="Leader 5" class="w-32 h-32 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-xl font-semibold mb-2 text-center text-white">ARANJAY GUPTA</h3>
+                    <p class="text-gray-300 text-center mb-4">DISCIPLINARY HEAD</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+               
+             
+            <style>
+                @keyframes scroll {
+                    0% { transform: translateX(0); }
+                    100% { transform: translateX(-100%); }
+                }
+                .core-dot {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background-color: #4B5563;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+                .core-dot.active {
+                    background-color: #60A5FA;
+                }
+            </style>
+        </section>
+        <!-- Core Members Section -->
+        <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-800 to-gray-700">
+          <h2 class="text-3xl font-bold text-center mb-12 gradient-text">Core Members</h2>
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div class="bg-gradient-to-br from-gray-700 to-blue-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-blue-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="100">
+                    <img src="photos/arush.jpg" alt="Core Member 1" class="w-24 h-24 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-lg font-semibold mb-2 text-center text-white">ARUSH MISHRA</h3>
+                    <p class="text-gray-300 text-center mb-4">AI-LEAD</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-700 to-purple-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-purple-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="200">
+                    <img src="photos/madhur.jpg" alt="Core Member 2" class="w-24 h-24 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-lg font-semibold mb-2 text-center text-white">MADHUR RASTOGI</h3>
+                    <p class="text-gray-300 text-center mb-4">AIML-LEAD</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-700 to-green-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-green-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="300">
+                    <img src="photos/pratyaksh.jpg" alt="Core Member 3" class="w-24 h-24 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-lg font-semibold mb-2 text-center text-white">PRTYAKSH</h3>
+                    <p class="text-gray-300 text-center mb-4">AI-LEAD</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-700 to-red-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-red-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="400">
+                    <img src="photos/hardy.png" alt="Core Member 4" class="w-24 h-24 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-lg font-semibold mb-2 text-center text-white">HRIDYANSH</h3>
+                    <p class="text-gray-300 text-center mb-4">CSBS-LEAD</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-700 to-yellow-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-yellow-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="500">
+                    <img src="photos/ansh.jpg" alt="Core Member 5" class="w-24 h-24 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-lg font-semibold mb-2 text-center text-white">ANSH SINGH</h3>
+                    <p class="text-gray-300 text-center mb-4">ANDROID-LEAD</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-700 to-pink-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-pink-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="600">
+                    <img src="photos/ashish.jpg" alt="Core Member 6" class="w-24 h-24 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-lg font-semibold mb-2 text-center text-white">ASHISH</h3>
+                    <p class="text-gray-300 text-center mb-4">AIML-LEAD</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-700 to-cyan-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-cyan-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="700">
+                    <img src="photos/AYUSH.jpg" alt="Core Member 7" class="w-24 h-24 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-lg font-semibold mb-2 text-center text-white">AYUSH</h3>
+                    <p class="text-gray-300 text-center mb-4">CYS-LEAD</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-700 to-orange-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-orange-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="800">
+                    <img src="photos/SRISHTI.jpg" alt="Core Member 8" class="w-24 h-24 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-lg font-semibold mb-2 text-center text-white">SRISHTI</h3>
+                    <p class="text-gray-300 text-center mb-4">COORDINATOR</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-700 to-teal-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-teal-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="900">
+                    <img src="photos/sakshi.jpg" alt="Core Member 9" class="w-24 h-24 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-lg font-semibold mb-2 text-center text-white">SAKSHI</h3>
+                    <p class="text-gray-300 text-center mb-4">COORDINATOR</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-gray-700 to-indigo-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-indigo-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="1000">
+                    <img src="photos/suhani.jpg" alt="Core Member 10" class="w-24 h-24 rounded-full mx-auto mb-4 hover-scale">
+                    <h3 class="text-lg font-semibold mb-2 text-center text-white">SUHANI</h3>
+                    <p class="text-gray-300 text-center mb-4">COORDINATOR</p>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-800 to-gray-700">
+            <h2 class="text-3xl font-bold text-center mb-12 gradient-text">About Us</h2>
+            <div class="max-w-4xl mx-auto text-center">
+                <p class="text-gray-300 mb-8" data-aos="fade-up">
+                    Coders ERA is a vibrant community of passionate developers, innovators, and tech enthusiasts. We believe in the power of collaborative learning and knowledge sharing to create a better future through technology.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+                    <div class="bg-gradient-to-br from-gray-700 to-blue-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-blue-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up">
+                        <h3 class="text-xl font-semibold mb-4 text-white">Our Mission</h3>
+                        <p class="text-gray-300">To foster a collaborative environment where developers can learn, grow, and innovate together while building meaningful projects that make a difference.</p>
+                    </div>
+                    <div class="bg-gradient-to-br from-gray-700 to-purple-800 p-6 rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:shadow-xl hover:from-purple-800 hover:to-gray-700 hover-scale roll-on" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="text-xl font-semibold mb-4 text-white">Our Vision</h3>
+                        <p class="text-gray-300">To become a leading tech community that empowers developers to reach their full potential and create innovative solutions for real-world challenges.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Events Section -->
+        <section class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-800 to-gray-700">
+            <h2 class="text-3xl font-bold text-center mb-12 gradient-text">Upcoming Events</h2>
+            <div class="max-w-4xl mx-auto relative overflow-hidden">
+                <div class="flex transition-transform duration-500 ease-in-out" id="eventSlider">
+                    <!-- Event 1 -->
+                    <div class="w-full flex-shrink-0 bg-gradient-to-br from-gray-800 to-blue-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up">
+                        <img src="photos/ai.jpeg" alt="AI Workshop" class="w-full h-64 object-cover rounded-lg mb-4 hover-scale">
+                        <h3 class="text-xl font-semibold mb-2 text-white">AI Workshop</h3>
+                        <p class="text-gray-300 mb-2">Learn the basics of Artificial Intelligence and Machine Learning</p>
+                        <p class="text-blue-400">Date:coming soon 
+                        </p>
+                    </div>
+                    <!-- Event 2 -->
+                    <div class="w-full flex-shrink-0 bg-gradient-to-br from-gray-800 to-purple-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up">
+                        <img src="photos/web.jpeg" alt="Web Development Bootcamp" class="w-full h-64 object-cover rounded-lg mb-4 hover-scale">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Web Development Bootcamp</h3>
+                        <p class="text-gray-300 mb-2">Intensive training on modern web technologies</p>
+                        <p class="text-blue-400">Date: coming soon</p>
+                    </div>
+                    <!-- Event 3 -->
+                    <div class="w-full flex-shrink-0 bg-gradient-to-br from-gray-800 to-indigo-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up">
+                        <img src="photos/hackathon.jpeg" alt="Hackathon 2024" class="w-full h-64 object-cover rounded-lg mb-4 hover-scale">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Hackathon </h3>
+                        <p class="text-gray-300 mb-2">24 to 48-hour coding challenge with amazing prizes</p>
+                        <p class="text-blue-400">Date: coming soon</p>
+                    </div>
+                    <!-- Event 4 -->
+                    <div class="w-full flex-shrink-0 bg-gradient-to-br from-gray-800 to-green-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up">
+                        <img src="photos/cloud.jpeg" alt="Cloud Computing Workshop" class="w-full h-64 object-cover rounded-lg mb-4 hover-scale">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Cloud Computing Workshop</h3>
+                        <p class="text-gray-300 mb-2">Master AWS and Azure fundamentals</p>
+                        <p class="text-blue-400">Date:coming soon</p>
+                    </div>
+                    <!-- Event 5 -->
+                    <div class="w-full flex-shrink-0 bg-gradient-to-br from-gray-800 to-pink-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up">
+                        <img src="photos/app.jpeg" alt="Mobile App Development" class="w-full h-64 object-cover rounded-lg mb-4 hover-scale">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Mobile App Development</h3>
+                        <p class="text-gray-300 mb-2">Create cross-platform mobile applications</p>
+                        <p class="text-blue-400">Date:coming soon</p>
+                    </div>
+                    <!-- Event 6 -->
+                  <div class="w-full flex-shrink-0 bg-gradient-to-br from-gray-800 to-yellow-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up">
+                        <img src="photos/cys.jpeg" alt="Cybersecurity Conference" class="w-full h-64 object-cover rounded-lg mb-4 hover-scale">
+                        <h3 class="text-xl font-semibold mb-2 text-white">Cybersecurity Conference</h3>
+                        <p class="text-gray-300 mb-2">Learn about latest security trends and practices</p>
+                        <p class="text-blue-400">Date: coming soon</p>
+                    </div>
+                </div>
+                <!-- Navigation Dots -->
+                <div class="flex justify-center mt-4 space-x-2">
+                    <button class="w-3 h-3 rounded-full bg-gray-400 hover:bg-blue-400 transition-colors duration-200 event-dot" data-index="0"></button>
+                    <button class="w-3 h-3 rounded-full bg-gray-400 hover:bg-blue-400 transition-colors duration-200 event-dot" data-index="1"></button>
+                    <button class="w-3 h-3 rounded-full bg-gray-400 hover:bg-blue-400 transition-colors duration-200 event-dot" data-index="2"></button>
+                    <button class="w-3 h-3 rounded-full bg-gray-400 hover:bg-blue-400 transition-colors duration-200 event-dot" data-index="3"></button>
+                    <button class="w-3 h-3 rounded-full bg-gray-400 hover:bg-blue-400 transition-colors duration-200 event-dot" data-index="4"></button>
+                    <button class="w-3 h-3 rounded-full bg-gray-400 hover:bg-blue-400 transition-colors duration-200 event-dot" data-index="5"></button>
+                </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation Dots -->
+                <div class="flex justify-center mt-6 space-x-2" id="coreNavDots"></div>
+               
+            </div>
+            <style>
+                @keyframes scroll {
+                    0% { transform: translateX(0); }
+                    100% { transform: translateX(-100%); }
+                }
+                .core-dot {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background-color: #4B5563;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+                .core-dot.active {
+                    background-color: #60A5FA;
+                }
+            </style>
+        </section>
+
+        <!-- Community Section -->
+        <section id="community" class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-900 to-gray-800">
+            <h2 class="text-3xl font-bold text-center mb-12 gradient-text">Join Our Community</h2>
+            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-gray-800 to-blue-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up">
+                    <i class="fas fa-users text-4xl text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Networking</h3>
+                    <p class="text-gray-300">Connect with like-minded developers, share ideas, and build lasting professional relationships.</p>
+                </div>
+                <div class="bg-gradient-to-br from-gray-800 to-purple-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-laptop-code text-4xl text-purple-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Workshops</h3>
+                    <p class="text-gray-300">Participate in hands-on workshops and training sessions to enhance your technical skills.</p>
+                </div>
+                <div class="bg-gradient-to-br from-gray-800 to-indigo-900 p-6 rounded-lg shadow-md hover-scale roll-on" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-project-diagram text-4xl text-indigo-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4 text-white">Projects</h3>
+                    <p class="text-gray-300">Work on real-world projects and build a strong portfolio to showcase your skills.</p>
+                </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation Dots -->
+                <div class="flex justify-center mt-6 space-x-2" id="coreNavDots"></div>
+                
+            </div>
+            <style>
+                @keyframes scroll {
+                    0% { transform: translateX(0); }
+                    100% { transform: translateX(-100%); }
+                }
+                .core-dot {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background-color: #4B5563;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+                .core-dot.active {
+                    background-color: #60A5FA;
+                }
+            </style>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-800 to-gray-700">
+            <h2 class="text-3xl font-bold text-center mb-12 gradient-text">Get in Touch</h2>
+            <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdIEVan1Obj0aM2y1sf6obF5lTYxjbHlvyC8nyDQj7w_uaxfQ/viewform" target="_blank" class="inline-block px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-xl font-semibold rounded-lg shadow-lg hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-300 hover-scale roll-on">
+                    Contact Us Now
+                </a>
+                <p class="mt-4 text-gray-300">Click the button above to fill out our contact form</p>
+            </div>
+                <div class="mt-12 text-center" data-aos="fade-up">
+                    <h3 class="text-xl font-semibold mb-6 text-white">Follow Us</h3>
+                    <div class="flex justify-center space-x-6">
+                        <a href="#" class="text-gray-300 hover:text-blue-400 hover-scale"><i class="fab fa-linkedin text-2xl"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-blue-400 hover-scale"><i class="fab fa-github text-2xl"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-blue-400 hover-scale"><i class="fab fa-twitter text-2xl"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-blue-400 hover-scale"><i class="fab fa-instagram text-2xl"></i></a>
+                    </div>
+                </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation Dots -->
+                <div class="flex justify-center mt-6 space-x-2" id="coreNavDots"></div>
+               
+            </div>
+            <style>
+                @keyframes scroll {
+                    0% { transform: translateX(0); }
+                    100% { transform: translateX(-100%); }
+                }
+                .core-dot {
+                    width: 8px;
+                    height: 8px;
+                    border-radius: 50%;
+                    background-color: #4B5563;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+                .core-dot.active {
+                    background-color: #60A5FA;
+                }
+            </style>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        // Event Slider Auto-scroll
+        const eventSlider = document.getElementById('eventSlider');
+        const eventDots = document.querySelectorAll('.event-dot');
+        let currentSlide = 0;
+        const slideCount = eventDots.length;
+
+        function updateSlider() {
+            eventSlider.style.transform = `translateX(-${currentSlide * 100}%)`;
+            eventDots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSlide);
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slideCount;
+            updateSlider();
+        }
+
+        // Add click event listeners to dots
+        eventDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                updateSlider();
+            });
+        });
+
+        // Initialize first dot as active
+        eventDots[0].classList.add('active');
+
+        // Auto-scroll every 5 seconds
+        setInterval(nextSlide, 5000);
+    </script>
+</body>
+</html>
+            updateSlider();
+        }
+
+        // Add click event listeners to dots
+        eventDots.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentSlide = index;
+                updateSlider();
+            });
+        });
+
+        // Initialize first dot as active
+        eventDots[0].classList.add('active');
+
+        // Auto-scroll every 5 seconds
+        setInterval(nextSlide, 5000);
+    </script>
+</body>
+</html>

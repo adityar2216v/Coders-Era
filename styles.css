@@ -1,0 +1,70 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.hover-scale {
+    transition: all 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.roller-coaster {
+    animation: rollerCoaster 3s infinite;
+}
+
+@keyframes rollerCoaster {
+    0%, 100% { transform: translateY(0); }
+    25% { transform: translateY(-10px) rotate(2deg); }
+    50% { transform: translateY(0) rotate(-2deg); }
+    75% { transform: translateY(10px) rotate(2deg); }
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.floating {
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #60A5FA, #8B5CF6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.roll-on {
+    animation: rollOn 0.8s ease-out forwards;
+    opacity: 0;
+    transform: perspective(1000px) rotateX(90deg);
+}
+
+@keyframes rollOn {
+    0% {
+        opacity: 0;
+        transform: perspective(1000px) rotateX(90deg);
+    }
+    100% {
+        opacity: 1;
+        transform: perspective(1000px) rotateX(0deg);
+    }
+}
