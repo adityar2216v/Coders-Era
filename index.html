@@ -518,22 +518,4 @@
     </script>
 </body>
 </html>
-            updateSlider();
-        }
-
-        // Add click event listeners to dots
-        eventDots.forEach((dot, index) => {
-            dot.addEventListener('click', () => {
-                currentSlide = index;
-                updateSlider();
-            });
-        });
-
-        // Initialize first dot as active
-        eventDots[0].classList.add('active');
-
-        // Auto-scroll every 5 seconds
-        setInterval(nextSlide, 5000);
-    </script>
-</body>
-</html>
+       
